@@ -35,11 +35,12 @@
     [self dismissLoadingAnimated:NO];
     
     MBProgressHUD *HUD = [[MBProgressHUD alloc] initWithView:self.view];
-    HUD.dimBackground = NO;
 #if LOADING_STYLE == 0
+    HUD.dimBackground = YES;
     HUD.color = [UIColor whiteColor];
     HUD.labelColor = [UIColor blackColor];
 #else
+    HUD.dimBackground = NO;
     HUD.color = [UIColor colorWithWhite:0 alpha:0.6];
     HUD.labelColor = [UIColor whiteColor];
 #endif
