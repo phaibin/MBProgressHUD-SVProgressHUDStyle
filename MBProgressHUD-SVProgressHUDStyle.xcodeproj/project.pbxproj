@@ -7,20 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		355572A7190E455A0075AF72 /* loading_angle-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 355572A0190E455A0075AF72 /* loading_angle-mask@2x.png */; };
+		355572A8190E455A0075AF72 /* loading_error_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 355572A1190E455A0075AF72 /* loading_error_black@2x.png */; };
+		355572A9190E455A0075AF72 /* loading_error_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 355572A2190E455A0075AF72 /* loading_error_white@2x.png */; };
+		355572AA190E455A0075AF72 /* loading_success_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 355572A3190E455A0075AF72 /* loading_success_black@2x.png */; };
+		355572AB190E455A0075AF72 /* loading_success_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 355572A4190E455A0075AF72 /* loading_success_white@2x.png */; };
+		355572AC190E455A0075AF72 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 355572A6190E455A0075AF72 /* MBProgressHUD.m */; };
+		355572AF190E457A0075AF72 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355572AE190E457A0075AF72 /* BaseViewController.m */; };
+		355572B1190E472B0075AF72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355572B0190E472B0075AF72 /* QuartzCore.framework */; };
 		35BC2083190E43BE00D59087 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BC2082190E43BE00D59087 /* UIKit.framework */; };
 		35BC2085190E43BE00D59087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BC2084190E43BE00D59087 /* Foundation.framework */; };
 		35BC2087190E43BE00D59087 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BC2086190E43BE00D59087 /* CoreGraphics.framework */; };
 		35BC208D190E43BE00D59087 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35BC208B190E43BE00D59087 /* InfoPlist.strings */; };
 		35BC208F190E43BE00D59087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC208E190E43BE00D59087 /* main.m */; };
-		35BC2093190E43BE00D59087 /* RKGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC2092190E43BE00D59087 /* RKGAppDelegate.m */; };
+		35BC2093190E43BE00D59087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC2092190E43BE00D59087 /* AppDelegate.m */; };
 		35BC2095190E43BE00D59087 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 35BC2094190E43BE00D59087 /* Default.png */; };
 		35BC2097190E43BE00D59087 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35BC2096190E43BE00D59087 /* Default@2x.png */; };
 		35BC2099190E43BE00D59087 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35BC2098190E43BE00D59087 /* Default-568h@2x.png */; };
-		35BC209C190E43BE00D59087 /* RKGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC209B190E43BE00D59087 /* RKGViewController.m */; };
-		35BC209F190E43BE00D59087 /* RKGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BC209D190E43BE00D59087 /* RKGViewController.xib */; };
+		35BC209C190E43BE00D59087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC209B190E43BE00D59087 /* ViewController.m */; };
+		35BC209F190E43BE00D59087 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BC209D190E43BE00D59087 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		355572A0190E455A0075AF72 /* loading_angle-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_angle-mask@2x.png"; sourceTree = "<group>"; };
+		355572A1190E455A0075AF72 /* loading_error_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_error_black@2x.png"; sourceTree = "<group>"; };
+		355572A2190E455A0075AF72 /* loading_error_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_error_white@2x.png"; sourceTree = "<group>"; };
+		355572A3190E455A0075AF72 /* loading_success_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_success_black@2x.png"; sourceTree = "<group>"; };
+		355572A4190E455A0075AF72 /* loading_success_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_success_white@2x.png"; sourceTree = "<group>"; };
+		355572A5190E455A0075AF72 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		355572A6190E455A0075AF72 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		355572AD190E457A0075AF72 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		355572AE190E457A0075AF72 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		355572B0190E472B0075AF72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		35BC207F190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBProgressHUD-SVProgressHUDStyle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BC2082190E43BE00D59087 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35BC2084190E43BE00D59087 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,14 +47,14 @@
 		35BC208C190E43BE00D59087 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35BC208E190E43BE00D59087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35BC2090190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-SVProgressHUDStyle-Prefix.pch"; sourceTree = "<group>"; };
-		35BC2091190E43BE00D59087 /* RKGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKGAppDelegate.h; sourceTree = "<group>"; };
-		35BC2092190E43BE00D59087 /* RKGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKGAppDelegate.m; sourceTree = "<group>"; };
+		35BC2091190E43BE00D59087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35BC2092190E43BE00D59087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		35BC2094190E43BE00D59087 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		35BC2096190E43BE00D59087 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		35BC2098190E43BE00D59087 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		35BC209A190E43BE00D59087 /* RKGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKGViewController.h; sourceTree = "<group>"; };
-		35BC209B190E43BE00D59087 /* RKGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKGViewController.m; sourceTree = "<group>"; };
-		35BC209E190E43BE00D59087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKGViewController.xib; sourceTree = "<group>"; };
+		35BC209A190E43BE00D59087 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35BC209B190E43BE00D59087 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35BC209E190E43BE00D59087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355572B1190E472B0075AF72 /* QuartzCore.framework in Frameworks */,
 				35BC2083190E43BE00D59087 /* UIKit.framework in Frameworks */,
 				35BC2085190E43BE00D59087 /* Foundation.framework in Frameworks */,
 				35BC2087190E43BE00D59087 /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +72,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3555729F190E455A0075AF72 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				355572A0190E455A0075AF72 /* loading_angle-mask@2x.png */,
+				355572A1190E455A0075AF72 /* loading_error_black@2x.png */,
+				355572A2190E455A0075AF72 /* loading_error_white@2x.png */,
+				355572A3190E455A0075AF72 /* loading_success_black@2x.png */,
+				355572A4190E455A0075AF72 /* loading_success_white@2x.png */,
+				355572A5190E455A0075AF72 /* MBProgressHUD.h */,
+				355572A6190E455A0075AF72 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		35BC2076190E43BE00D59087 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +106,7 @@
 		35BC2081190E43BE00D59087 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				355572B0190E472B0075AF72 /* QuartzCore.framework */,
 				35BC2082190E43BE00D59087 /* UIKit.framework */,
 				35BC2084190E43BE00D59087 /* Foundation.framework */,
 				35BC2086190E43BE00D59087 /* CoreGraphics.framework */,
@@ -83,11 +117,14 @@
 		35BC2088190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle */ = {
 			isa = PBXGroup;
 			children = (
-				35BC2091190E43BE00D59087 /* RKGAppDelegate.h */,
-				35BC2092190E43BE00D59087 /* RKGAppDelegate.m */,
-				35BC209A190E43BE00D59087 /* RKGViewController.h */,
-				35BC209B190E43BE00D59087 /* RKGViewController.m */,
-				35BC209D190E43BE00D59087 /* RKGViewController.xib */,
+				35BC2091190E43BE00D59087 /* AppDelegate.h */,
+				35BC2092190E43BE00D59087 /* AppDelegate.m */,
+				355572AD190E457A0075AF72 /* BaseViewController.h */,
+				355572AE190E457A0075AF72 /* BaseViewController.m */,
+				35BC209A190E43BE00D59087 /* ViewController.h */,
+				35BC209B190E43BE00D59087 /* ViewController.m */,
+				35BC209D190E43BE00D59087 /* ViewController.xib */,
+				3555729F190E455A0075AF72 /* MBProgressHUD */,
 				35BC2089190E43BE00D59087 /* Supporting Files */,
 			);
 			path = "MBProgressHUD-SVProgressHUDStyle";
@@ -160,10 +197,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				35BC208D190E43BE00D59087 /* InfoPlist.strings in Resources */,
+				355572AB190E455A0075AF72 /* loading_success_white@2x.png in Resources */,
 				35BC2095190E43BE00D59087 /* Default.png in Resources */,
 				35BC2097190E43BE00D59087 /* Default@2x.png in Resources */,
 				35BC2099190E43BE00D59087 /* Default-568h@2x.png in Resources */,
-				35BC209F190E43BE00D59087 /* RKGViewController.xib in Resources */,
+				35BC209F190E43BE00D59087 /* ViewController.xib in Resources */,
+				355572AA190E455A0075AF72 /* loading_success_black@2x.png in Resources */,
+				355572A8190E455A0075AF72 /* loading_error_black@2x.png in Resources */,
+				355572A9190E455A0075AF72 /* loading_error_white@2x.png in Resources */,
+				355572A7190E455A0075AF72 /* loading_angle-mask@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				35BC208F190E43BE00D59087 /* main.m in Sources */,
-				35BC2093190E43BE00D59087 /* RKGAppDelegate.m in Sources */,
-				35BC209C190E43BE00D59087 /* RKGViewController.m in Sources */,
+				355572AF190E457A0075AF72 /* BaseViewController.m in Sources */,
+				35BC2093190E43BE00D59087 /* AppDelegate.m in Sources */,
+				35BC209C190E43BE00D59087 /* ViewController.m in Sources */,
+				355572AC190E455A0075AF72 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,12 +235,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		35BC209D190E43BE00D59087 /* RKGViewController.xib */ = {
+		35BC209D190E43BE00D59087 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				35BC209E190E43BE00D59087 /* en */,
 			);
-			name = RKGViewController.xib;
+			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,6 +343,7 @@
 				35BC20A4190E43BE00D59087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
