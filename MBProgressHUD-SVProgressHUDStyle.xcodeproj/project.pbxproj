@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35BC2083190E43BE00D59087 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BC2082190E43BE00D59087 /* UIKit.framework */; };
+		35BC2085190E43BE00D59087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BC2084190E43BE00D59087 /* Foundation.framework */; };
+		35BC2087190E43BE00D59087 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BC2086190E43BE00D59087 /* CoreGraphics.framework */; };
+		35BC208D190E43BE00D59087 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35BC208B190E43BE00D59087 /* InfoPlist.strings */; };
+		35BC208F190E43BE00D59087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC208E190E43BE00D59087 /* main.m */; };
+		35BC2093190E43BE00D59087 /* RKGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC2092190E43BE00D59087 /* RKGAppDelegate.m */; };
+		35BC2095190E43BE00D59087 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 35BC2094190E43BE00D59087 /* Default.png */; };
+		35BC2097190E43BE00D59087 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35BC2096190E43BE00D59087 /* Default@2x.png */; };
+		35BC2099190E43BE00D59087 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35BC2098190E43BE00D59087 /* Default-568h@2x.png */; };
+		35BC209C190E43BE00D59087 /* RKGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC209B190E43BE00D59087 /* RKGViewController.m */; };
+		35BC209F190E43BE00D59087 /* RKGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BC209D190E43BE00D59087 /* RKGViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35BC207F190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBProgressHUD-SVProgressHUDStyle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35BC2082190E43BE00D59087 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35BC2084190E43BE00D59087 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35BC2086190E43BE00D59087 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35BC208A190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-SVProgressHUDStyle-Info.plist"; sourceTree = "<group>"; };
+		35BC208C190E43BE00D59087 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35BC208E190E43BE00D59087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35BC2090190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-SVProgressHUDStyle-Prefix.pch"; sourceTree = "<group>"; };
+		35BC2091190E43BE00D59087 /* RKGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKGAppDelegate.h; sourceTree = "<group>"; };
+		35BC2092190E43BE00D59087 /* RKGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKGAppDelegate.m; sourceTree = "<group>"; };
+		35BC2094190E43BE00D59087 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		35BC2096190E43BE00D59087 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		35BC2098190E43BE00D59087 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		35BC209A190E43BE00D59087 /* RKGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKGViewController.h; sourceTree = "<group>"; };
+		35BC209B190E43BE00D59087 /* RKGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKGViewController.m; sourceTree = "<group>"; };
+		35BC209E190E43BE00D59087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RKGViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35BC207C190E43BE00D59087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BC2083190E43BE00D59087 /* UIKit.framework in Frameworks */,
+				35BC2085190E43BE00D59087 /* Foundation.framework in Frameworks */,
+				35BC2087190E43BE00D59087 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35BC2076190E43BE00D59087 = {
+			isa = PBXGroup;
+			children = (
+				35BC2088190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle */,
+				35BC2081190E43BE00D59087 /* Frameworks */,
+				35BC2080190E43BE00D59087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35BC2080190E43BE00D59087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35BC207F190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35BC2081190E43BE00D59087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35BC2082190E43BE00D59087 /* UIKit.framework */,
+				35BC2084190E43BE00D59087 /* Foundation.framework */,
+				35BC2086190E43BE00D59087 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35BC2088190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle */ = {
+			isa = PBXGroup;
+			children = (
+				35BC2091190E43BE00D59087 /* RKGAppDelegate.h */,
+				35BC2092190E43BE00D59087 /* RKGAppDelegate.m */,
+				35BC209A190E43BE00D59087 /* RKGViewController.h */,
+				35BC209B190E43BE00D59087 /* RKGViewController.m */,
+				35BC209D190E43BE00D59087 /* RKGViewController.xib */,
+				35BC2089190E43BE00D59087 /* Supporting Files */,
+			);
+			path = "MBProgressHUD-SVProgressHUDStyle";
+			sourceTree = "<group>";
+		};
+		35BC2089190E43BE00D59087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35BC208A190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle-Info.plist */,
+				35BC208B190E43BE00D59087 /* InfoPlist.strings */,
+				35BC208E190E43BE00D59087 /* main.m */,
+				35BC2090190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle-Prefix.pch */,
+				35BC2094190E43BE00D59087 /* Default.png */,
+				35BC2096190E43BE00D59087 /* Default@2x.png */,
+				35BC2098190E43BE00D59087 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35BC207E190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35BC20A2190E43BE00D59087 /* Build configuration list for PBXNativeTarget "MBProgressHUD-SVProgressHUDStyle" */;
+			buildPhases = (
+				35BC207B190E43BE00D59087 /* Sources */,
+				35BC207C190E43BE00D59087 /* Frameworks */,
+				35BC207D190E43BE00D59087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBProgressHUD-SVProgressHUDStyle";
+			productName = "MBProgressHUD-SVProgressHUDStyle";
+			productReference = 35BC207F190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35BC2077190E43BE00D59087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RKG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Leon;
+			};
+			buildConfigurationList = 35BC207A190E43BE00D59087 /* Build configuration list for PBXProject "MBProgressHUD-SVProgressHUDStyle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35BC2076190E43BE00D59087;
+			productRefGroup = 35BC2080190E43BE00D59087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35BC207E190E43BE00D59087 /* MBProgressHUD-SVProgressHUDStyle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35BC207D190E43BE00D59087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BC208D190E43BE00D59087 /* InfoPlist.strings in Resources */,
+				35BC2095190E43BE00D59087 /* Default.png in Resources */,
+				35BC2097190E43BE00D59087 /* Default@2x.png in Resources */,
+				35BC2099190E43BE00D59087 /* Default-568h@2x.png in Resources */,
+				35BC209F190E43BE00D59087 /* RKGViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35BC207B190E43BE00D59087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BC208F190E43BE00D59087 /* main.m in Sources */,
+				35BC2093190E43BE00D59087 /* RKGAppDelegate.m in Sources */,
+				35BC209C190E43BE00D59087 /* RKGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35BC208B190E43BE00D59087 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35BC208C190E43BE00D59087 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35BC209D190E43BE00D59087 /* RKGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35BC209E190E43BE00D59087 /* en */,
+			);
+			name = RKGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35BC20A0190E43BE00D59087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35BC20A1190E43BE00D59087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35BC20A3190E43BE00D59087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBProgressHUD-SVProgressHUDStyle/MBProgressHUD-SVProgressHUDStyle-Prefix.pch";
+				INFOPLIST_FILE = "MBProgressHUD-SVProgressHUDStyle/MBProgressHUD-SVProgressHUDStyle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35BC20A4190E43BE00D59087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBProgressHUD-SVProgressHUDStyle/MBProgressHUD-SVProgressHUDStyle-Prefix.pch";
+				INFOPLIST_FILE = "MBProgressHUD-SVProgressHUDStyle/MBProgressHUD-SVProgressHUDStyle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35BC207A190E43BE00D59087 /* Build configuration list for PBXProject "MBProgressHUD-SVProgressHUDStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35BC20A0190E43BE00D59087 /* Debug */,
+				35BC20A1190E43BE00D59087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35BC20A2190E43BE00D59087 /* Build configuration list for PBXNativeTarget "MBProgressHUD-SVProgressHUDStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35BC20A3190E43BE00D59087 /* Debug */,
+				35BC20A4190E43BE00D59087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35BC2077190E43BE00D59087 /* Project object */;
+}
